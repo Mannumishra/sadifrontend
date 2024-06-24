@@ -1,0 +1,81 @@
+.create-biodata {
+    text-align: center;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.create-biodata .content {
+    z-index: 1;
+    position: relative;
+    margin-left: 25%;
+}
+
+.create-biodata .highlight {
+    color: #ec407a;
+}
+
+.create-biodata .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.create-biodata .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.create-biodata .button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.create-biodata .button img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.create-biodata .button.create {
+    border: 2px solid #f06292;
+}
+
+.create-biodata .button.how-to {
+    border: 2px solid #f06292;
+    color: #f06292;
+}
+
+.create-biodata .images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 0;
+}
+
+.create-biodata .images .couple-left,
+.create-biodata .images .couple-right {
+    width: 150px;
+}
+
+.create-biodata .images .couple-left {
+    position: absolute;
+    left: 10px;
+}
+
+.create-biodata .images .couple-right {
+    position: absolute;
+    right: 10px;
+}
